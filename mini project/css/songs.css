@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration:none;
+}
+.navbar{
+    display:flex;
+    height:auto;
+    width:100%;
+    background-color:rgb(15, 15, 15);
+    align-items:right;
+    
+}
+.navbar .logo img{
+    height:60px;
+    margin:3px 20px;
+}
+.navbar ul{
+    display:flex;
+    margin-left:525px;
+    
+}
+.navbar ul li{
+    margin: 15px;
+    font-size: 25px;
+}
+.navbar ul li a{
+    display:block;
+    color:rgb(250, 248, 248);
+    padding:3px 22px;
+    border-radius:8px;
+}
+.navbar ul li a:hover{
+    color:rgb(247, 22, 22);
+    background-color:white;
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    font-family:fira sans,sans-serif;
+}
+.song .title{
+    margin-top: 50px;
+    padding: 8px;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    color: red;
+}
+.contact-left img{
+    float: left;
+    margin-top: 50px;
+    height: 30%;
+    width: 30%;
+    margin-left: 30px;
+}
+.head{
+    text-align: center;
+    color: red;
+    margin-top: 40px;
+    margin-left: 50px;
+   
+}
+.contact-right {
+  margin-right: 300px;
+}
+table{
+    margin-top: 30px;
+    text-align: center;
+   float: right;
+}
+tr td{
+    font-size: 30px;
+    color: red;
+    padding-right: 20px;
+    text-align: center;
+    padding: 4px;
+}
